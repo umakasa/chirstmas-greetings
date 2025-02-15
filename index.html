@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Christmas Landing Page</title>
+  <!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lobster%7CParisienne%7CRaleway:200,300" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href=''><link rel="stylesheet" href="./style.css">
+	
+</head>
+<body>
+	<audio id="myAudio" src="hi.mp3" autoplay loop></audio>
+<!-- partial:index.partial.html -->
+<div id="loader"></div>
+	<!-- Parallax Container -->
+	<div id="container" class="parallax-container snow">
+		<ul id="christmas_scene" class="christmas-scene" >
+			<li class="layer" data-depth="0.80"><div class="layer-5 layer-photo photo-zoom"></div></li>
+			<li class="layer" data-depth="0.60"><div class="layer-4 layer-photo photo-zoom"></div></li>
+			<li class="layer" data-depth="0.40"><div class="layer-3 layer-photo photo-zoom"></div></li>
+			<li class="layer" data-depth="0.20"><div class="layer-2 layer-photo photo-zoom"></div></li>
+			<li class="layer" data-depth="0.00"><div class="layer-1 layer-photo"></div></li>
+		</ul>
+		<!-- Countdown Container -->
+		
+		<div id="santa-container">
+            <img src="santa.png" alt="Santa Claus" id="santa">
+        </div>
+		
+		<img src="http://awesome-coding.com/theme/images/christmas-tree.png" alt="christmas-tree" id="christmas_tree">
+
+	<canvas width="965" height="4500" style="position: absolute; top: 0px; left: 0px;"></canvas>
+        	<a href="card.html" class="merry-christmas-text" style="text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5), 0px 0px 20px rgba(255, 255, 255, 0.3); box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5), 0px 0px 20px rgba(255, 255, 255, 0.3);">Merry Christmas</a>
+			<div style="position: relative; z-index: 10; text-align: center;">
+				<a href="card.html" 
+				   style="text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5), 
+						  0px 0px 20px rgba(255, 255, 255, 0.3); 
+						  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5), 
+						  0px 0px 20px rgba(255, 255, 255, 0.3); 
+						  color: white; 
+						  text-decoration: none; 
+						  font-size: 24px; 
+						  cursor: pointer;">
+				  Celebrate With Us
+				</a>
+			  </div>
+			  
+        <div class="happy-new-year"></div>
+
+        
+    </div>
+		
+		<!-- Happy new year 2017 photo -->
+		<div class="happy-new-year"></div>
+
+		<!-- Contact Pole Image -> From here the E-mail modal is triggered -->
+		
+		<!-- Christmas Tree -->
+		
+    </div>
+		
+		
+	</div>
+	<script>
+		// Get a reference to the audio element
+		const audio = document.getElementById('myAudio');
+	  
+		// Function to play the audio
+		function playAudio() {
+		  audio.play();
+		}
+	  
+		// Function to pause the audio
+		function pauseAudio() {
+		  audio.pause();
+		}
+	  
+		// Call the playAudio function when the page loads
+		window.onload = playAudio;
+	  </script>
+
+	<!-- Send E-mail Modal -->
+	
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
